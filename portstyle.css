@@ -88,7 +88,7 @@ body{
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -153,7 +153,7 @@ body{
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -315,19 +315,20 @@ body{
     margin-bottom: 25px;
 }
 
-.pro-card a,button{
-    display: inline-block;
-    padding: 5px 10px;
-    margin-right: 15px;
+.pro-card button{
+    padding: 12px 28px;
+    border: none;
     background-color: #00adb5;
     color: white;
+    font-size: 16px;
+    cursor: pointer;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.pro-card a:hover, .pro-card button:hover{
+.pro-card button:hover{
     transform: scale(1.10);
     color: #0f0f0f;
 }

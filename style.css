@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+}
+
+body{
+    background: #b2e4e4f8;
+    color: black;
+    line-height: 1.6;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.prof-sum{
+    
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.skills, .exp, .projects, .education{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.exp ul, .projects ul, .education ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color: grey;
+    text-decoration: underline;
+}
